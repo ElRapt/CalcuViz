@@ -8,7 +8,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### 1. **Function Plotting**:
 
-- **Theory**: Visual representation of mathematical functions provides insight into their behavior. Given a function $\( f(x) \), the plot shows all points \( (x, f(x)) \)$ in the coordinate plane.
+- **Theory**: Visual representation of mathematical functions provides insight into their behavior. Given a function $f(x)$, the plot shows all points $(x, f(x))$ in the coordinate plane.
   
 - **Example Applications**: 
     - Analyzing revenue vs. cost functions in economics.
@@ -16,7 +16,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### 2. **Derivative Operations**:
 
-- **Theory**: The derivative of a function represents its rate of change or the slope of the tangent line at any point. \( f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h} \)
+- **Theory**: The derivative of a function represents its rate of change or the slope of the tangent line at any point. $f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}$
 
 - **Example Applications**:
     - Determining velocity from a position-time graph.
@@ -24,7 +24,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### 3. **Numerical Differentiation & Integration**:
 
-- **Theory**: Numerical methods offer approximations that can be useful in complex scenarios where symbolic methods are cumbersome. Forward difference: \( f'(x) \approx \frac{f(x+h) - f(x)}{h} \)
+- **Theory**: Numerical methods offer approximations that can be useful in complex scenarios where symbolic methods are cumbersome. Forward difference: $f'(x) \approx \frac{f(x+h) - f(x)}{h}$
 
 - **Example Applications**:
     - Calculating approximate changes in variables in engineering simulations.
@@ -32,7 +32,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### 4. **Visualizing Integrals**:
 
-- **Theory**: Integration represents the area under the curve of a function, providing accumulative quantities. \( \int f(x) dx \)
+- **Theory**: Integration represents the area under the curve of a function, providing accumulative quantities. $\int f(x) dx$
 
 - **Example Applications**:
     - Finding the total distance traveled using a velocity-time graph.
@@ -48,7 +48,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### 6. **Taylor Series Expansion**:
 
-- **Theory**: The Taylor series provides polynomial approximations of functions about a specific point. The more terms in the series, the closer the approximation is to the original function within a certain range. \( f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \ldots \)
+- **Theory**: The Taylor series provides polynomial approximations of functions about a specific point. The more terms in the series, the closer the approximation is to the original function within a certain range. $f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \ldots$
 
 - **Example Applications**:
     - Simplifying complex functions for easier analysis in physics or engineering.
@@ -56,7 +56,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### 7. **Root Finding**:
 
-- **Theory**: Root finding involves determining the values of \( x \) for which \( f(x) = 0 \). Methods like Newton-Raphson provide iterative approaches to hone in on these root values.
+- **Theory**: Root finding involves determining the values of $x$ for which $f(x) = 0$. Methods like Newton-Raphson provide iterative approaches to hone in on these root values.
 
 - **Example Applications**:
     - Determining break-even points in business financial models.
@@ -74,7 +74,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### Option 1: Interactive Online Version with Binder
 
-1. Click on the Binder badge: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_GITHUB_USERNAME/CalcuViz/main?filepath=CalcuViz_tool.ipynb)
+1. Click on the Binder badge: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ElRapt/CalcuViz/main?filepath=calcuviz.ipynb)
     - This will open the notebook in an interactive environment directly in your browser.
 2. Wait for the environment to load and initialize.
 3. Interact with the notebook: input functions, select operations, and view the results!
@@ -83,7 +83,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/CalcuViz.git
+    git clone https://github.com/ElRapt/CalcuViz.git
     ```
 2. Navigate to the repository's directory:
     ```bash
@@ -99,10 +99,8 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
     ```bash
     jupyter notebook
     ```
-5. In the opened browser tab, navigate to `CalcuViz_tool.ipynb` and open it.
+5. In the opened browser tab, navigate to `calcuviz.ipynb` and open it.
 
 ## Feedback and Contributions:
 
-Your feedback is invaluable! If you have suggestions, encounter bugs, or want to contribute, please [open an issue](https://github.com/YOUR_GITHUB_USERNAME/CalcuViz/issues) or submit a pull request.
-
-
+Your feedback is invaluable! If you have suggestions, encounter bugs, or want to contribute, please [open an issue](https://github.com/ElRapt/CalcuViz/issues) or submit a pull request.
