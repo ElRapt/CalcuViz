@@ -8,7 +8,7 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
 
 ### 1. **Function Plotting**:
 
-- **Theory**: Visual representation of mathematical functions provides insight into their behavior. Given a function \( f(x) \), the plot shows all points \( (x, f(x)) \) in the coordinate plane.
+- **Theory**: Visual representation of mathematical functions provides insight into their behavior. Given a function $\( f(x) \), the plot shows all points \( (x, f(x)) \)$ in the coordinate plane.
   
 - **Example Applications**: 
     - Analyzing revenue vs. cost functions in economics.
