@@ -1,5 +1,3 @@
-
-
 # CalcuViz: Interactive Calculus with Python
 
 **Disclaimer**: I am not a professional mathematician. CalcuViz is designed as a tool for visualization and understanding. For rigorous mathematical studies, please consult relevant academic sources.
