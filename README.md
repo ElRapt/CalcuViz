@@ -81,7 +81,7 @@ Replace placeholders with actual values or functions.
 
 #### Example:
 
-To solve \( \frac{dy}{dt} = y - t \) with initial condition \( y(0) = 1 \) from \( t = 0 \) to \( t = 5 \):
+To solve $\( \frac{dy}{dt} = y - t \)$ with initial condition $\( y(0) = 1 \)$ from $\( t = 0 \)$ to $\( t = 5 \)$:
 
     f = lambda t, y: y - t
     solve_ode_euler(f, 1, 0, 5, 0.1)
