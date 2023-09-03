@@ -62,13 +62,35 @@ CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive envir
     - Determining break-even points in business financial models.
     - Solving for equilibrium points in dynamic systems in engineering.
 
-### 8. **Differential Equations**:
+### 8. Solving Differential Equations using Euler's Method
 
-- **Theory**: Differential equations involve functions and their derivatives. They represent relationships between varying quantities. Ordinary Differential Equations (ODEs) have one unknown function and partial derivatives.
+**Theory**:  
+Differential equations involve functions and their derivatives, expressing relationships between varying quantities. Ordinary Differential Equations (ODEs) have a single unknown function and its derivatives.
 
-- **Example Applications**:
-    - Modeling the growth of populations in biology.
-    - Describing circuit behaviors in electrical engineering based on components like resistors and capacitors.
+#### Usage:
+
+1. **Define Your ODE**: Create a Python function `f(t, y)` where `t` is the independent variable and `y` is the dependent variable.
+2. **Initial Condition**: Specify the initial value of `y` as `y0`.
+3. **Time Parameters**: Define the initial time `t0`, end time `tn`, and the step size `h`.
+
+To solve your differential equation, run the following Python code:
+
+    solve_ode_euler(YOUR_ODE_FUNCTION, INITIAL_CONDITION, INITIAL_TIME, END_TIME, STEP_SIZE)
+
+Replace placeholders with actual values or functions.
+
+#### Example:
+
+To solve \( \frac{dy}{dt} = y - t \) with initial condition \( y(0) = 1 \) from \( t = 0 \) to \( t = 5 \):
+
+    f = lambda t, y: y - t
+    solve_ode_euler(f, 1, 0, 5, 0.1)
+
+#### Example Applications:
+
+- Modeling the growth or decay of populations in biology.
+- Describing the behavior of electrical circuits in engineering.
+
 
 ## How to Use:
 
