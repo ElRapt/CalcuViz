@@ -1,5 +1,11 @@
 # CalcuViz: Interactive Calculus with Python
 
+![GitHub](https://img.shields.io/github/license/ElRapt/CalcuViz)
+![Language](https://img.shields.io/badge/Notebook-Jupyter-orange)
+![Discord](https://img.shields.io/badge/Discord-Bot-blueviolet)
+![Size](https://img.shields.io/badge/Size-32MB-yellowgreen)
+
+
 **Disclaimer**: I am not a professional mathematician. CalcuViz is designed as a tool for visualization and understanding. For rigorous mathematical studies, please consult relevant academic sources.
 
 CalcuViz is a Jupyter Notebook-based tool designed to offer an interactive environment for visualizing and understanding various calculus operations. It aims to bridge the gap between theory and its real-world applications.
