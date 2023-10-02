@@ -1,8 +1,7 @@
 # CalcuViz: Interactive Calculus with Python
 
-![GitHub](https://img.shields.io/github/license/ElRapt/CalcuViz)
 ![Language](https://img.shields.io/badge/Notebook-Jupyter-orange)
-![Discord](https://img.shields.io/badge/Discord-Bot-blueviolet)
+![Builder](https://img.shields.io/badge/Builder-Binder-red)
 ![Size](https://img.shields.io/badge/Size-32MB-yellowgreen)
 
 
